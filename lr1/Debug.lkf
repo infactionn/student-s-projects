@@ -1,0 +1,4 @@
+-z -c -m"./Debug/lr1.map" -o"./Debug/lr1.out" -w -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib"
+"C:\CCStudio_v3.1\MyProjects\lr1\lr1.cmd"
+"C:\CCStudio_v3.1\MyProjects\lr1\Debug\lr1.obj"
+"C:\CCStudio_v3.1\C6000\cgtools\lib\rts6700.lib"
