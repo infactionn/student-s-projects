@@ -1,0 +1,14 @@
+------------------------------  lr2.pjt - Debug  ------------------------------
+[lr2.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/lr2/Debug" -d"_DEBUG" -mv6700 -@"Debug.lkf" "lr2.c"
+"lr2.c", line 92: warning: variable "kek" was declared but never referenced
+"lr2.c", line 184: warning: too many arguments in function call
+"lr2.c", line 102: warning: variable "begin" was declared but never referenced
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+>> warning: creating .stack section with default size of 400 (hex) words.
+   Use
+            -stack option to change the default size.
+
+Build Complete,
+  0 Errors, 4 Warnings, 0 Remarks.

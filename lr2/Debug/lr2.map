@@ -1,0 +1,215 @@
+******************************************************************************
+          TMS320C6x COFF Linker PC v5.1.0                      
+******************************************************************************
+>> Linked Thu Mar 23 12:22:27 2023
+
+OUTPUT FILE NAME:   <./Debug/lr2.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00002180
+
+
+MEMORY CONFIGURATION
+
+                  name            origin    length      used    attr    fill
+         ----------------------  --------  ---------  --------  ----  --------
+         IRAM                    00000000   00010000  0000316c  RWIX
+         CE0                     80000000   01000000  00000000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.const     0    00000000    00000000     UNINITIALIZED
+
+.data      0    00000000    00000000     UNINITIALIZED
+
+.switch    0    00000000    00000000     UNINITIALIZED
+
+.sysmem    0    00000000    00000000     UNINITIALIZED
+
+.tables    0    00000000    00000000     UNINITIALIZED
+
+.cio       0    00000000    00000000     UNINITIALIZED
+
+.text      0    00000000    000022c0     
+                  00000000    00000aa0     lr2.obj (.text)
+                  00000aa0    00000400     rts6700.lib : cos.obj (.text:_cos)
+                  00000ea0    00000320                 : frcdivd.obj (.text:__frcdivd)
+                  000011c0    00000280                 : sqrt.obj (.text:_sqrt)
+                  00001440    00000280                 : divd.obj (.text:__divd)
+                  000016c0    00000240                 : memcpy62.obj (.text:_memcpy)
+                  00001900    000001c0                 : ldexp.obj (.text:_ldexp)
+                  00001ac0    00000160                 : frexp.obj (.text:_frexp)
+                  00001c20    00000140                 : autoinit.obj (.text:__auto_init)
+                  00001d60    00000140                 : exit.obj (.text:_exit)
+                  00001ea0    00000120                 : divi.obj (.text:__divi)
+                  00001fc0    000000e0                 : round.obj (.text:__round)
+                  000020a0    000000e0                 : modf.obj (.text:_modf)
+                  00002180    00000080                 : boot.obj (.text:_c_int00)
+                  00002200    00000040                 : args_main.obj (.text:__args_main)
+                  00002240    00000040                 : trunc.obj (.text:__trunc)
+                  00002280    00000020                 : exit.obj (.text:_abort)
+                  000022a0    00000020                 : _lock.obj (.text:__nop)
+
+.far       0    000022c0    000009d8     UNINITIALIZED
+                  000022c0    00000900     lr2.obj (.far)
+                  00002bc0    0000008c     rts6700.lib : exit.obj (.far)
+                  00002c4c    00000004                 : errno.obj (.far)
+                  00002c50    00000040                 : cos.obj (.far)
+                  00002c90    00000008                 : _lock.obj (.far)
+
+.stack     0    00002c98    00000400     UNINITIALIZED
+                  00002c98    00000008     rts6700.lib : boot.obj (.stack)
+
+.cinit     0    00003098    000000cc     
+                  00003098    00000048     rts6700.lib : cos.obj (.cinit)
+                  000030e0    0000002c                 : exit.obj (.cinit)
+                  0000310c    00000004     --HOLE-- [fill = 0]
+                  00003110    0000001c                 : _lock.obj (.cinit)
+                  0000312c    00000004     --HOLE-- [fill = 0]
+                  00003130    0000001c     lr2.obj (.cinit)
+                  0000314c    00000004     --HOLE-- [fill = 0]
+                  00003150    0000000c     rts6700.lib : errno.obj (.cinit)
+                  0000315c    00000008     --HOLE-- [fill = 0]
+
+.bss       0    00003164    00000008     UNINITIALIZED
+                  00003164    00000008     lr2.obj (.bss)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00003164   $bss
+00003164   .bss
+00000000   .data
+00000000   .text
+00002280   C$$EXIT
+000027c0   _DCTxP
+00003164   _LENGTH
+000028c0   _P_DCT
+00000400   __STACK_SIZE
+ffffffff   ___binit__
+00003164   ___bss__
+ffffffff   ___c_args__
+00003098   ___cinit__
+00000000   ___data__
+00000000   ___edata__
+0000316c   ___end__
+000022c0   ___etext__
+ffffffff   ___pinit__
+00000000   ___text__
+00002200   __args_main
+00001c20   __auto_init
+00002c44   __cleanup_ptr
+00001440   __divd
+00001ea0   __divi
+00002c48   __dtors_ptr
+00000ea0   __frcdivd
+00002c90   __lock
+000022a0   __nop
+00001fc0   __round
+00002c98   __stack
+00002240   __trunc
+00002c94   __unlock
+00002280   _abort
+000025c0   _bits1d
+00002180   _c_int00
+00000aa0   _cos
+00000000   _dataInput
+00000008   _dataOutput
+000029c0   _dct_tranps
+00002c4c   _errno
+00001d60   _exit
+00001ac0   _frexp
+000022c0   _inputArr
+00001900   _ldexp
+00000144   _main
+000016c0   _memcpy
+000020a0   _modf
+000024c0   _out
+000023c0   _outputArr
+00000010   _prepareDataToInput
+0000009c   _prepareDataToOutput
+00003168   _shift
+000011c0   _sqrt
+00002ac0   _temp
+00000128   _test
+000026c0   _transpon_matrix
+ffffffff   binit
+00003098   cinit
+00000000   edata
+0000316c   end
+000022c0   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   ___edata__
+00000000   ___data__
+00000000   ___text__
+00000000   _dataInput
+00000000   .data
+00000000   .text
+00000000   edata
+00000008   _dataOutput
+00000010   _prepareDataToInput
+0000009c   _prepareDataToOutput
+00000128   _test
+00000144   _main
+00000400   __STACK_SIZE
+00000aa0   _cos
+00000ea0   __frcdivd
+000011c0   _sqrt
+00001440   __divd
+000016c0   _memcpy
+00001900   _ldexp
+00001ac0   _frexp
+00001c20   __auto_init
+00001d60   _exit
+00001ea0   __divi
+00001fc0   __round
+000020a0   _modf
+00002180   _c_int00
+00002200   __args_main
+00002240   __trunc
+00002280   _abort
+00002280   C$$EXIT
+000022a0   __nop
+000022c0   ___etext__
+000022c0   _inputArr
+000022c0   etext
+000023c0   _outputArr
+000024c0   _out
+000025c0   _bits1d
+000026c0   _transpon_matrix
+000027c0   _DCTxP
+000028c0   _P_DCT
+000029c0   _dct_tranps
+00002ac0   _temp
+00002c44   __cleanup_ptr
+00002c48   __dtors_ptr
+00002c4c   _errno
+00002c90   __lock
+00002c94   __unlock
+00002c98   __stack
+00003098   cinit
+00003098   ___cinit__
+00003164   .bss
+00003164   $bss
+00003164   ___bss__
+00003164   _LENGTH
+00003168   _shift
+0000316c   end
+0000316c   ___end__
+ffffffff   pinit
+ffffffff   ___pinit__
+ffffffff   ___binit__
+ffffffff   binit
+ffffffff   ___c_args__
+
+[62 symbols]
