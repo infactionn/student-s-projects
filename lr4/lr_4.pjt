@@ -1,0 +1,44 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\CCStudio_v3.1\MyProjects\lr_4\"
+ProjectType=Executable
+CPUFamily=TMS320C67XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\C6000\cgtools\lib\rts6700.lib"
+Source="data.h"
+Source="example.asm"
+Source="lr_4.c"
+Source="lr_4.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -d"_DEBUG" -mv6700
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -mv6700
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\lr_4.map" -o".\Debug\lr_4.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\lr_4.map" -o".\Release\lr_4.out" -w -x
+
+["data.h" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["data.h" Settings: "Release"]
+ExcludeFromBuild=true
+
+["lr_4.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["lr_4.cmd" Settings: "Release"]
+LinkOrder=1
+
