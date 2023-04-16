@@ -1,0 +1,9 @@
+/*Amplitude.gel Create slider and vary amplitude of
+sinewave*/
+menuitem "Sine Amplitude"
+slider Amplitude(1,35,5,1,amplitudeparameter)
+/*incr by 5,up to 35*/
+{
+	amplitude = amplitudeparameter; /*vary amplit
+of sine*/
+}

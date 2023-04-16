@@ -1,0 +1,13 @@
+------------------------------  lab3.pjt - Debug  ------------------------------
+[main.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/lab3_23/Debug" -i"C:/CCStudio_v3.1/C6000/dsk6713/include" -d"_DEBUG" --mem_model:data=far -@"Debug.lkf" "main.c"
+"main.c", line 38: warning: statement is unreachable
+"main.c", line 63: warning: last line of file ends without a newline
+
+[vectors.asm] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/CCStudio_v3.1/MyProjects/lab3_23/Debug" -i"C:/CCStudio_v3.1/C6000/dsk6713/include" -d"_DEBUG" --mem_model:data=far -@"Debug.lkf" "vectors.asm"
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+>> warning: creating output section .vectors without SECTIONS specification
+
+Build Complete,
+  0 Errors, 3 Warnings, 0 Remarks.

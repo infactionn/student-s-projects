@@ -1,0 +1,7 @@
+-z -c -m"./Debug/lab3.map" -o"./Debug/lab3.out" -w -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib"
+"C:\CCStudio_v3.1\MyProjects\lab3_23\script.cmd"
+"C:\CCStudio_v3.1\MyProjects\lab3_23\Debug\main.obj"
+"C:\CCStudio_v3.1\MyProjects\lab3_23\Debug\vectors.obj"
+"C:\CCStudio_v3.1\C6000\cgtools\lib\rts6700.lib"
+"C:\CCStudio_v3.1\C6000\csl\lib\csl6713.lib"
+"C:\CCStudio_v3.1\C6000\dsk6713\lib\dsk6713bsl.lib"
